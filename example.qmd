@@ -8,7 +8,7 @@ format: html
 
 This is a fun tweet I tweeted:
 
-{{< tweet https://twitter.com/sellorm/status/1555267341327503367 >}}
+{{< tweet user="sellorm" id="1555267341327503367" >}}
 
 Duke Caboom _is_ pretty great!
 
@@ -16,7 +16,7 @@ Duke Caboom _is_ pretty great!
 
 Here's another tweet:
 
-{{< tweet https://twitter.com/rstudio/status/1552285282636120064?s=20&t=OgBYKp9CpMs2HyDliZWkYQ >}}
+{{< tweet user="rstudio" id="1552285282636120064" >}}
 
 Exciting news!
 

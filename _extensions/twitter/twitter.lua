@@ -1,6 +1,7 @@
-function tweet(args)
-    local url = pandoc.utils.stringify(args[1])
-    local tweet_embed = 'https://publish.twitter.com/oembed?url=' .. url .. '&align=center'
+function tweet(args, kwargs)
+    local user = pandoc.utils.stringify(kwargs["user"])
+    local status_id = pandoc.utils.stringify(kwargs["id"])
+    local tweet_embed = 'https://publish.twitter.com/oembed?url=https://twitter.com/' .. user .. '/status/' .. status_id .. '&align=center'
     local mt, api_resp = pandoc.mediabag.fetch(tweet_embed)
     local id = math.random(10000, 99999)
     local tweet_data = '<div id="tweet-' .. id .. '"></div><script>tweet=' .. api_resp .. ';document.getElementById("tweet-' .. id .. '").innerHTML = tweet["html"];</script>'
@@ -18,3 +19,4 @@ function tweet(args)
         return pandoc.Null()
     end
 end
+
