@@ -1,0 +1,14 @@
+---
+title: Twitter tweet embedding example
+Author: Mark Sellors
+format: html
+---
+
+## Here is a Tweet 
+
+This is a fun tweet I tweeted:
+
+{{< tweet https://twitter.com/sellorm/status/1555267341327503367 >}}
+
+Duke Caboom _is_ pretty great!
+

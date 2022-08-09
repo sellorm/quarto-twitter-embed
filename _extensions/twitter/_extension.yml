@@ -1,0 +1,6 @@
+title: twitter-embed
+author: Mark Sellors
+version: 0.0.1
+contributes:
+  shortcodes:
+    - twitter.lua
