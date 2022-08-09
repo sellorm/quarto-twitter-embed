@@ -12,3 +12,11 @@ This is a fun tweet I tweeted:
 
 Duke Caboom _is_ pretty great!
 
+---
+
+Here's another tweet:
+
+{{< tweet https://twitter.com/rstudio/status/1552285282636120064?s=20&t=OgBYKp9CpMs2HyDliZWkYQ >}}
+
+Exciting news!
+
