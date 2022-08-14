@@ -6,17 +6,20 @@ format: html
 
 ## Here is a Tweet 
 
-This is a fun tweet I tweeted:
+This is a fun tweet I tweeted: `{{{< tweet sellorm 1555267341327503367 >}}}`
 
-{{< tweet user="sellorm" id="1555267341327503367" >}}
+Rendered as:
+
+{{< tweet sellorm 1555267341327503367 >}}
 
 Duke Caboom _is_ pretty great!
 
 ---
 
-Here's another tweet:
+Here's another tweet: `{{{< tweet rstudio 1552285282636120064 >}}}`
 
-{{< tweet user="rstudio" id="1552285282636120064" >}}
+Rendered as:
+
+{{< tweet rstudio 1552285282636120064 >}}
 
 Exciting news!
-
