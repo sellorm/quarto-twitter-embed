@@ -12,7 +12,7 @@ quarto install extension sellorm/quarto-twitter-embed
 
 ## Usage
 
-To embed a video into your Quarto html document you can use the shortcode like this:
+To embed a Tweet into your Quarto html document you can use the shortcode like this:
 
 ```markdown
 {{< tweet <username> <id> >}}
@@ -23,6 +23,8 @@ or
 ```markdown
 {{< tweet user=<username> id=<id> >}}
 ```
+
+This second option is provided for compatibility with [Hugo](https://gohugo.io/content-management/shortcodes/#tweet).
 
 For example:
 
