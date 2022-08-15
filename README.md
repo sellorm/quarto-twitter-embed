@@ -18,10 +18,22 @@ To embed a video into your Quarto html document you can use the shortcode like t
 {{< tweet <username> <id> >}}
 ```
 
+or
+
+```markdown
+{{< tweet user=<username> id=<id> >}}
+```
+
 For example:
 
 ```markdown
 {{< tweet sellorm 1555267341327503367 >}}
+```
+
+or
+
+```markdown
+{{< tweet user=sellorm id=1555267341327503367 >}}
 ```
 
 You can obtain the username and status id of a tweet by clicking the "share tweet" button and choosing "copy URL".
