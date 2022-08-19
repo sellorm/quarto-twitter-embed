@@ -2,6 +2,9 @@
 
 A [Quarto](https://quarto.org) extension to embed tweets into an html document using a shortcode.
 
+**Note:** The project is archived and will no longer be updated.
+The Twitter embed functionality is available in my [quarto-social-embeds](https://github.com/sellorm/quarto-social-embeds) project.
+
 ## Installation
 
 Install the extension with:
